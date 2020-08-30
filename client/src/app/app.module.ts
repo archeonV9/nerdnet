@@ -13,7 +13,9 @@ import {NgxSpinnerModule} from 'ngx-spinner';
 import { JwtInterceptor } from './core/interceptors/jwt.interceptor';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [	AppComponent
+
+   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
